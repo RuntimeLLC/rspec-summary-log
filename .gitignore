@@ -3,3 +3,4 @@ pkg
 tmp
 .tags
 .idea
+Gemfile.lock
