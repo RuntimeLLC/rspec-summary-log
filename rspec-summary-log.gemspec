@@ -5,8 +5,8 @@ Gem::Specification.new do |s|
   s.name        = 'rspec-summary-log'
   s.version     = RSpec::SummaryLog::Version::STRING
   s.platform    = Gem::Platform::RUBY
-  s.authors     = ['Aleksandr Fomin']
-  s.email       = ['ll.wg.bin@gmail.com']
+  s.authors     = ['Aleksandr Fomin', 'Kamila Sharipova']
+  s.email       = ['ll.wg.bin@gmail.com', 'kam.sharipova@gmail.com']
   s.homepage    = 'https://github.com/RuntimeLLC/rspec-summary-log'
   s.summary     = 'Log summary of failed tests for CI'
   s.description = s.summary

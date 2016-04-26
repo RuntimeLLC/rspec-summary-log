@@ -9,7 +9,7 @@ Install
 gem install rspec-summary-log
 
 # spec/spec_helper.rb
-require 'rspec/summary_log
+require 'rspec/summary_log'
 
 # .rspec (or .rspec_parallel)
 --require rails_helper
@@ -24,7 +24,7 @@ We have two kind of loggers:
 
 #### RSpec::SummaryLog::FailedLogger
 
-This logger write file names of broken specs.
+This logger writes file names of broken specs.
 
 ```
 # tmp/failed.log
@@ -40,7 +40,7 @@ For example you can rerun failed tests with `rspec $(cat tmp/failed.log)`.
 
 #### RSpec::SummaryLog::SummaryLogger
 
-This logger write summary of broken specs.
+This logger writes summary of broken specs.
 
 ```
 # tmp/summary.log
