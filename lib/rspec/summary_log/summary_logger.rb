@@ -17,7 +17,7 @@ module RSpec
         lock_output do
           notification.failure_notifications.each_with_index do |failure, index|
             output.puts failure.fully_formatted(index.next, ::RSpec::Core::Formatters::ConsoleCodes)
-            output.puts $/ + 'rspec ' + failure.example.rerun_argument
+            output.puts $/ + 'rspec ' + failure.example.location_rerun_argument
           end
         end
         @output.flush
