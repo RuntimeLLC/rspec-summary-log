@@ -68,4 +68,11 @@ rspec ./spec/specifications/order_specification_spec.rb:14
 rspec ./spec/specifications/order_specification_spec.rb:20
 ```
 
+Authors
+=======
+
+- [Aleksandr Fomin](http://github.com/llxff)
+- [Kamila Sharipova](https://github.com/kamsharipova)
+- [Nikolay Sverchkov](https://github.com/ssnikolay)
+
 **License: MIT**
