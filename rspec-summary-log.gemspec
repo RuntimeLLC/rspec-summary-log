@@ -16,7 +16,7 @@ Gem::Specification.new do |s|
   s.executables   = `git ls-files -- bin/*`.split($/).map{ |f| File.basename(f) }
   s.require_paths = ['lib']
   s.license = 'MIT'
-  s.add_dependency 'rspec'
+  s.add_dependency 'rspec', '~> 3'
 
   s.add_development_dependency 'rake'
 end
