@@ -25,6 +25,10 @@ module RSpec
       def dump_pending(*)
         true
       end
+
+      def seed(notification)
+        true
+      end
     end
   end
 end
