@@ -50,8 +50,10 @@ module RSpec
       def example_rerun_argument(example)
         if example.respond_to?(:location_rerun_argument)
           example.location_rerun_argument
-        else
+        elsif example.respond_to?(:rerun_argument)
           example.rerun_argument
+        else
+          example.location
         end
       end
     end
