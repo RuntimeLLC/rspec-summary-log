@@ -16,7 +16,7 @@ module RSpec
           notification = args.first
 
           notification.failed_examples.each do |ex|
-            output.puts ex.location_rerun_argument
+            output.puts(example_rerun_argument(ex))
           end
         end
         @output.flush

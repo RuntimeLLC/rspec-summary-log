@@ -45,6 +45,15 @@ module RSpec
           yield
         end
       end
+
+      # From Rspec v3.3 rerun_argument becomes to be deprecated
+      def example_rerun_argument(example)
+        if example.respond_to?(:location_rerun_argument)
+          example.location_rerun_argument
+        else
+          example.rerun_argument
+        end
+      end
     end
   end
 end
